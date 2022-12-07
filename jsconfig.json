@@ -1,0 +1,17 @@
+{
+  "target": "ES6",
+  "moduleResolution": "node",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "Styles/*": ["App/Assets/Styles/*"],
+      "Images/*": ["App/Assets/Images/*"],
+      "Components/*": ["App/Components/*"],
+      "Commons/*": ["App/Components/Commons*"],
+      "Configs/*": ["App/Configs/*"],
+      "Hooks/*": ["App/Hooks/*"],
+      "Utils/*": ["App/Utils/*"]
+    }
+  }
+}
